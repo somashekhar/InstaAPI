@@ -1,5 +1,14 @@
 from fastapi import FastAPI
 from fastapi import Body
+from pydantic import BaseModel
+from typing import Optional
+
+class Post(BaseModel):
+    title: str
+    content: str
+    published: bool = True
+    rating: Optional[int] = None
+
 app = FastAPI()
 
 @app.get("/")
@@ -11,6 +20,7 @@ def get_posts():
     return {"data": "This is your posts"}
 
 @app.post("/posts")
-def create_posts(payLoad: dict = Body(...)):
-    print(payLoad)
-    return {"new_post": f"title: {payLoad['title']} content: {payLoad['content']}"}
+def create_posts(post: Post):
+    print(post)
+    print(post.model_dump())
+    return {"data": post}
