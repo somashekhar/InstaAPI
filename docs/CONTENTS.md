@@ -11,7 +11,7 @@
 ```
 
 
-## FastAPI Introduction
+## FastAPI
 - Install dependencies with pip
 - Start FastAPI
 - Path Operations (decorators, json)
@@ -26,7 +26,11 @@
 
 ## Postman
 - Introduction to Postman
-- HTTP Post Requests
+- HTTP Requests
 
 # References
 - [[HTTP Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)]
+- [API Documentation](https://www.postman.com/api-platform/api-documentation/)
+- [FastAPI](https://fastapi.tiangolo.com/tutorial/first-steps/)
+- [Pydantic](https://docs.pydantic.dev/latest/)
+
