@@ -40,10 +40,33 @@
 - Postman collection and Saving requests
 - Retrive one post
 
+## Databases
+- Database Introduction
+- Bring up database in docker compose
+- Set up PostgreSQL Explorer plugin in VSCode
+- Database schemas and tables
+- Managing Postgres with PgAdmin GUI
+- Your First SQL Query
+- Filter results with WHERE
+- SQL Operators
+- IN 
+- Pattern matching with LIKE
+- Ordering results
+- LIMIT & OFFSET
+- Modifying Data
+
+- Setup App Database
+- Connecting to database with Python
+- Database CRUD
+- ORM Introduction 
+- 
+
+
 # References
 - [[HTTP Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)]
 - [API Documentation](https://www.postman.com/api-platform/api-documentation/)
 - [FastAPI](https://fastapi.tiangolo.com/tutorial/first-steps/)
 - [Pydantic](https://docs.pydantic.dev/latest/)
 - [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+- [Postgres Data Types](https://www.postgresql.org/docs/current/datatype.html)
 
