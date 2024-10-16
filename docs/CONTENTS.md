@@ -55,12 +55,25 @@
 - LIMIT & OFFSET
 - Modifying Data
 
+## Python + Raw SQL
 - Setup App Database
 - Connecting to database with Python
 - Database CRUD
-- ORM Introduction 
-- 
 
+## ORMs
+- ORM Introduction 
+- SQLALCHEMY setup
+- Adding Created at column
+- Get All
+- Create
+- Get By ID
+- Delete
+- Update
+
+## Pydantic Models
+- Pydantic and ORM Models
+- Pydantic Models Deep Dive
+- Response Model
 
 # References
 - [[HTTP Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)]
@@ -69,4 +82,5 @@
 - [Pydantic](https://docs.pydantic.dev/latest/)
 - [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 - [Postgres Data Types](https://www.postgresql.org/docs/current/datatype.html)
+- [SQLAlchemy 1.4](https://docs.sqlalchemy.org/en/14/)
 
