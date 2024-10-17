@@ -39,6 +39,7 @@
 - HTTP Requests
 - Postman collection and Saving requests
 - Retrive one post
+- Postman advanced features
 
 ## Databases
 - Database Introduction
@@ -75,6 +76,25 @@
 - Pydantic Models Deep Dive
 - Response Model
 
+## Authentication and Users
+- Creating Users Table
+- User Registration Path Operation
+- Hashing User Passwords
+- Refactor Hashing Logic
+- Get User by ID
+- FastAPI Routers
+- Router Prefix
+- Router Tags
+- JWT Token Basics
+- Login Process
+- Creating a token
+- OAuth2 PasswordRequestForm
+- Verify User is logged in
+- Fixing Bugs
+- Protecting Routes
+- Test Expired Token
+- Fetching User in protected routes
+
 # References
 - [[HTTP Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)]
 - [API Documentation](https://www.postman.com/api-platform/api-documentation/)
@@ -83,4 +103,5 @@
 - [HTTP Status Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 - [Postgres Data Types](https://www.postgresql.org/docs/current/datatype.html)
 - [SQLAlchemy 1.4](https://docs.sqlalchemy.org/en/14/)
+- [OAuth JWT](https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/)
 
