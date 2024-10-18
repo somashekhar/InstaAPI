@@ -4,9 +4,9 @@ CREATE TABLE posts (
     content VARCHAR NOT NULL
 );
 
-INSERT INTO posts (title, content) VALUES 
-('title of post 1', 'content of post 1'),
-('title of post 2', 'content of post 2');
+INSERT INTO posts (title, content, owner_id) VALUES 
+('title of post 1', 'content of post 1', 8),
+('title of post 2', 'content of post 2', 9);
 
 SELECT * FROM posts;
 
