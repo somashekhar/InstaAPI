@@ -95,6 +95,26 @@
 - Test Expired Token
 - Fetching User in protected routes
 
+## Relationships
+- SQL Relationship Basics
+- Postgres Foreign Keys
+- SQL Alchemy Foreign Keys
+- Update Post Schema to include User
+- Assigning Owner ID when creating new post
+- Delete and Update only your own posts
+- Only Retrieving Logged in User's posts
+- Sqlalchemy Relationships
+- Query Parameters
+    ```
+        {{URL}}posts?limit=10&skip=1&search=of%20post
+    ```
+- Clean up your main.py file
+- Environment Variables
+    ```
+        export MY_DB_LOCAL="localhost:5432"
+        printenv
+        echo $MY_DB_LOCAL
+    ```
 # References
 - [[HTTP Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)]
 - [API Documentation](https://www.postman.com/api-platform/api-documentation/)
@@ -104,4 +124,5 @@
 - [Postgres Data Types](https://www.postgresql.org/docs/current/datatype.html)
 - [SQLAlchemy 1.4](https://docs.sqlalchemy.org/en/14/)
 - [OAuth JWT](https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/)
+- 
 
