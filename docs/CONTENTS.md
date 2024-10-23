@@ -125,6 +125,22 @@
 - Joins in Sqlalchemy
 - Get One Post with Joins
 
+## Database Migration with Alembic
+- What is database migration tool
+- Alembic setup
+    ```
+        alembic init alembic
+        alembic revision -m "create posts table"
+        alembic current
+        alembic upgrade <revision id>
+        alembic upgrade head
+        alembic revision --autogenerate -m "message"
+    ```
+- Alembic first revision
+- Alembic rollback database schema
+- Alembic finishing up the rest of the schema
+- Disable SqlAlchemy create engine
+
 # References
 - [[HTTP Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)]
 - [API Documentation](https://www.postman.com/api-platform/api-documentation/)
@@ -135,4 +151,5 @@
 - [SQLAlchemy 1.4](https://docs.sqlalchemy.org/en/14/)
 - [OAuth JWT](https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/)
 - [PostgreSQL](https://www.postgresqltutorial.com/index.html)
+- [Alembic](https://alembic.sqlalchemy.org/en/latest/)
 
