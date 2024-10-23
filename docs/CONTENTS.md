@@ -141,6 +141,68 @@
 - Alembic finishing up the rest of the schema
 - Disable SqlAlchemy create engine
 
+## Pre Deployment Checklist
+- What is CQRS ?
+- Git PreReqs
+- Git Install
+- Github
+
+## Deployment Heroku
+- Heroku Introduction
+- Create Heroku Application
+    ```
+    heroku login
+    heroku create insta-api-som
+    git push heroku main
+
+    ```
+- Heroku Procfile
+- Adding a postgres database
+- Environment variables in Heroku
+- Alembic Migrations on Heroku Postgres instance
+- Pushing changes to production
+
+## Deployment Ubuntu
+- Create an Ubuntu VM
+- Update packages
+- Install Python
+- Install Postgres and setup password
+- Postgres Config
+- Create new user and setup python environment
+- Environment Variables
+- Alembic migrations on production database
+- Gunicorn
+- Creating a Systemd service
+- NGINX 
+- Setting up Domain name
+- SSL/HTTPS
+- NGINX enable 
+- Firewall 
+- Pushing code changes to Production
+
+## Docker
+- Dockerfile
+    ```
+        docker build -t instaapi .
+        docker image ls
+    ```
+- Docker Compose
+- Postgres Container
+- Bind Mounts
+- Dockerhub
+    ```
+        docker login
+        docker image tag instaapi-api sombidari/instaapi-api
+        docker push sombidari/instaapi-api
+    ```
+- Production vs Deployment
+    ```
+        docker compose -f docker-compose-dev.yaml up -d
+        docker compose -f docker-compose-prod.yaml up -d
+        docker compose -f docker-compose-dev.yaml down
+    ```
+
+
 # References
 - [[HTTP Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)]
 - [API Documentation](https://www.postman.com/api-platform/api-documentation/)
@@ -152,4 +214,6 @@
 - [OAuth JWT](https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/)
 - [PostgreSQL](https://www.postgresqltutorial.com/index.html)
 - [Alembic](https://alembic.sqlalchemy.org/en/latest/)
+- [CORS](https://fastapi.tiangolo.com/tutorial/cors/)
+- [Heroku](https://devcenter.heroku.com/articles/heroku-cli)
 
