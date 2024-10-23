@@ -115,6 +115,16 @@
         printenv
         echo $MY_DB_LOCAL
     ```
+
+## Voting/Like System
+- Vote/Like Theory
+- Votes Table
+- Votes Sqlalchemy
+- Votes Route
+- SQL Joins
+- Joins in Sqlalchemy
+- Get One Post with Joins
+
 # References
 - [[HTTP Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)]
 - [API Documentation](https://www.postman.com/api-platform/api-documentation/)
@@ -124,5 +134,5 @@
 - [Postgres Data Types](https://www.postgresql.org/docs/current/datatype.html)
 - [SQLAlchemy 1.4](https://docs.sqlalchemy.org/en/14/)
 - [OAuth JWT](https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/)
-- 
+- [PostgreSQL](https://www.postgresqltutorial.com/index.html)
 
