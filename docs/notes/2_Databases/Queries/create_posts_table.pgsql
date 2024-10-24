@@ -18,3 +18,5 @@ ALTER COLUMN posts
     ALTER COLUMN published SET DEFAULT TRUE;
 
 DROP TABLE posts;
+
+CREATE DATABASE InstaAPI_test;
