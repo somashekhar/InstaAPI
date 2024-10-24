@@ -203,6 +203,38 @@
     ```
 
 
+## Testing
+- Testing Introduction
+- Writing your first test
+- The -s & -v flags
+- Testing more functions
+- Parametrize 
+- Testing Classes 
+- Fixtures 
+- Combining Fixtures + Parametrize
+- Testing Exceptions
+- FastAPI TestClient
+- Pytest flags
+- Test create user
+- Setup testing database
+- Create & destroy database after each test
+- More Fixtures to handle database interaction
+- Trailing slashes in path 15:50:35
+- Fixture scope 15:53:12
+- Test user fixture 16:07:50
+- Test/validate token 16:14:40
+- Conftest.py 16:18:59
+- Failed login test 16:22:09
+- Get all posts test 16:28:28
+- Posts fixture to create test posts 16:29:34
+- Unauthorized Get Posts test 16:51:33
+- Get one post test 16:55:16
+- Create post test 16:59:19
+- Delete post test 17:08:05
+- Update post 17:15:17
+- Voting tests 17:22:09
+
+
 # References
 - [[HTTP Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)]
 - [API Documentation](https://www.postman.com/api-platform/api-documentation/)
@@ -217,3 +249,5 @@
 - [CORS](https://fastapi.tiangolo.com/tutorial/cors/)
 - [Heroku](https://devcenter.heroku.com/articles/heroku-cli)
 
+# Video Reference
+- [Python API Development - Comprehensive Course for Beginners](https://www.youtube.com/watch?v=0sOvCWFmrtA&t=18483s)
