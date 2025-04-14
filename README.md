@@ -111,6 +111,11 @@ alembic downgrade -1
 pytest
 ```
 
+### Ruff fomat and lint
+```
+    ruff check --fix
+    ruff format
+```
 
 ## License
 
