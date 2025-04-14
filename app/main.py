@@ -1,16 +1,13 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app import models
-from .database import engine
 from .routers import user, post, auth, vote
-from .config import settings
 
 # You do not need it when you have alembic
 # models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
-origins = [ "*" ]
+origins = ["*"]
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
@@ -24,7 +21,7 @@ app.include_router(user.router)
 app.include_router(auth.router)
 app.include_router(vote.router)
 
+
 @app.get("/")
 def root():
-    return {"message": "Hello Som!"}
-
+    return {"message": "Hello, Welcome to my API"}
